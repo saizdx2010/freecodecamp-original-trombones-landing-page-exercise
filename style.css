@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +8,7 @@
 
 body {
     background-color: #eeeeee;
+    font-family: "Lato", sans-serif;
 }
 
 nav {
@@ -44,8 +48,7 @@ nav span {
     margin: 10px 0;
 }
 
-.CTA h1, .CTA input, .CTA button {
-    
+.CTA h1, .CTA input, .CTA button { 
     margin: 10px;
 }
 
@@ -91,4 +94,53 @@ nav span {
     color: #ff8c00;
     margin: 0 20px;
 }
+
+
+.HIW-container {
+   display: flex;
+   justify-content: center;
+   margin: 30px 0;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.pricing-card {
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.pricing-card span {
+    background-color: #ff8c00;
+    color: black;
+    display: block;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.pricing-card h2 {
+    font-size: 40px;
+    margin: 10px 0 0 0;
+}
+
+.pricing-card p {
+    padding: 10px;
+
+}
+
+.pricing-card button {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+
 
